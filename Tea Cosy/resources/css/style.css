@@ -1,0 +1,154 @@
+body {
+  background-color:black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* Header */
+
+header {
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+  z-index: 1;
+  position: fixed;
+  width:100%;
+  align-items: center;
+  background-color:black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav span {
+  text-decoration: underline;
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+a {
+  color: seashell;
+}
+
+/* Content */
+
+.content {
+  top: 69px;
+  display:flex;
+  position: relative;
+  flex-direction: column;
+}
+
+/* Mission */
+
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg")
+}
+
+.mission-text{
+  margin: auto;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+/* Featured Tea */
+.featured {
+  display:flex;
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+}
+
+.featured-text{
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Featured Tea of the Month */
+
+.featured-teaofthemonth {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.featured-tea {
+  display:inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+.featured-tea img {
+  height: 200px;
+}
+
+.featured-tea h4{
+  padding-top:10px;
+  margin-top: 0;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 550px;
+  margin: 50px auto 0 auto;
+}
+
+.locations h2 {
+  text-align: center;
+  padding: 70px 0 0 0;
+  margin: 0 0 15px 0;
+}
+
+.location-towns {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.towns {
+  width: 300px;
+  background-color: black;
+  display:inline-block;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.towns h3{
+  margin: 20px 0 0 0;
+}
+
+.towns p {
+  line-height: 3;
+  margin: 0;
+}
+
+/* Contact */
+.contact {
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Copyright */
+.copyright {
+  float: left;
+  margin-left: 20px;
+}
